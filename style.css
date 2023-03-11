@@ -1,0 +1,148 @@
+.container {
+    max-width: 1100px;
+}
+header {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+.title-color{
+   color:crimson;
+}
+.btn{
+    background-color: pink;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 230px;
+}
+#row-descripcion{
+    background-image: url('https://img.freepik.com/vector-gratis/vector-fondo-degradado-rosa-pastel-estilo-abstracto-memphis-borde-retro_53876-111913.jpg?size=626&ext=jpg&ga=GA1.1.1050188763.1678472060&semt=popularhttps://img.freepik.com/vector-gratis/vector-fondo-degradado-rosa-pastel-estilo-abstracto-memphis-borde-retro_53876-111913.jpg?size=626&ext=jpg&ga=GA1.1.1050188763.1678472060&semt=popular');
+    background-size: cover;
+    color: crimson;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.row{
+    margin: 0;
+
+}
+.img1{
+    width: 190px;
+}
+.img2{
+    width: 250px;
+    border-radius: 15%;
+}    
+#row-descripcion img{
+    border-radius: 15%;
+    width: 305px;
+}
+#row-trama img{
+    border-radius: 20%;
+    width: 310px;
+}
+#row-trama{
+    background-image: url('https://img.freepik.com/foto-gratis/diseno-diseno-fondo-naranja-abstracto-estudio-habitacion-plantilla-web-informe-comercial-color-degradado-circulo-suave_1258-69051.jpg?size=626&ext=jpg&ga=GA1.2.1050188763.1678472060&semt=popular');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+}
+#row-estilodejuego{
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-luz-neon-degradado_23-2149332918.jpg?size=626&ext=jpg&ga=GA1.1.1050188763.1678472060&semt=popular');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+#row-atributosencombate{
+    background-image: url('https://img.freepik.com/vector-gratis/diseno-colorido-degradado-abstracto-fondo_483537-2391.jpg?size=626&ext=jpg&ga=GA1.2.1050188763.1678472060&semt=popular');
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#row-personajes{
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-semitono-abstracto_23-2148572656.jpg?size=626&ext=jpg&ga=GA1.2.1050188763.1678472060&semt=popular');
+    background-size: cover;
+    background-position: center;
+    padding-top: 140px ;
+    padding-bottom: 140px;
+    color:crimson;
+}
+
+#row-personajes img{
+    border-radius: 30%;
+    width: 100px;
+}
+#row-decripcion p{
+    font-size: 15px;
+}
+#row-trama p{
+    font-size: 15px;
+}
+#row-estilodejuego p{
+    font-size: 15px;
+}
+#row-atributosencombate p{
+    font-size: 15px;
+}
+#row-personajes p{
+    font-size: 15px;
+}
+.form-control{
+    border-radius: 50px;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    color: crimson;
+    text-align: center;
+    padding-top: 4%;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#arriba{
+    background-color: palevioletred;
+    color: pink;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 45px;
+    right: 11px;
+    position: fixed;
+    bottom: 50px;
+    border-radius: 100%;
+}
+#arriba a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+nav{
+    z-index: 100;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: pink;
+    padding-left: 20px;
+}
